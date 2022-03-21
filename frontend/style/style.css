@@ -1,0 +1,203 @@
+/*style untuk semua elemen*/
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*style untuk body dari halaman*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia;
+}
+
+/*style untuk class wrapper*/
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+
+/*style untuk image di class logo*/
+.logo img{
+    height: 70px;
+    width: 70px;
+    float: left;
+}
+
+/*style untuk class menu*/
+.menu{
+    float: right;
+}
+
+/*style unyuk navigation*/
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #0C827E;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: white;
+    font-family: calibri;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/*style untuk class banner*/
+.banner{
+    height:100vh;
+    border:1px;
+    background-image: url(../images/download.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*style untuk class banner*/
+.banner after {
+    content: "";
+    display:block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #A0D9CF;
+}
+
+/*style untuk heading 2 di class banner*/
+.banner h2 {
+    color :rgb(1, 2, 2);
+    z-index: 1;
+    padding: 20px 25px;
+    text-align: center;
+}
+
+/*style untuk paragraf di class welcome di dalam class banner*/
+.banner .welcome p{
+    color :rgb(1, 2, 2);
+    z-index: 1;
+    padding: 9px 18px;
+    text-align: center;  
+}
+
+/*style untuk class kolom untuk menampilkan artikel*/
+.kolom{
+    width: 50%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*style untuk class baris untuk menampilkan artikel*/
+.baris{
+    display: flex;
+    padding-right:15px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/*style untuk image di artikel*/
+img{
+    width: 230px;
+    height: 230px;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+/*style untuk heading 2 judul dari artikel*/
+.kolom h2{
+    margin-left: 90px;
+    font-family:Georgia;
+    color:#3A6B62;
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+/*style untuk paragraf writer di class kolom*/
+.kolom .writer{
+    margin-left: 100px;
+    font-family:Georgia;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+/*style untuk paragraf di class kolom*/
+.kolom p{
+    margin-left: 650px;
+    font-family:Georgia;
+    color: black;
+}
+
+/*style untuk button Read More*/
+a.button{
+    background: #3A6B62;
+    margin-top: 200px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*style untuk paragraf isi di kolom*/
+.kolom .isi{
+    margin: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 120px;
+    text-align: justify;
+    margin-top: 0;
+}
+
+/*style untuk link di kolom*/
+.kolom .link{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 90px;
+}
+
+/*style untuk button ketika diarahkan*/
+a.button:hover{
+    background: #60978d;
+    text-decoration: none;
+}
+
+/*style untuk footer*/
+.footer{
+    font-family:Georgia;
+    padding: 20px;
+    text-align: center;
+    background-color: #72a89e;
+    color:azure;
+}
